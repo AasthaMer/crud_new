@@ -1,0 +1,230 @@
+/* .container{
+    background-color: #fff;
+    max-width: 500px;
+    max-height: 700px;
+    padding: 50px 20px;
+    width: 100%;
+    width: 400px;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+.container-home{
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+}
+form input,form label{
+    font-size: 16px;
+    padding: 5px 5px;
+}
+form input{
+    margin-bottom: 20px;
+    border: 1px solid #000; 
+}
+form input:hover{
+    border-color: #001d3d;
+    border-radius: 2px;
+}
+.btn{
+    background-color: #001d3d;
+    padding: 5px 15px;
+    color:#fff;
+    font-size: 18px;
+    min-width: 150px;
+    margin: 5px;
+    border-radius: 100px;
+    transition: backgroundColor 1s;
+
+}
+.btn:hover{
+    background-color: #023047;
+    cursor: pointer;
+}
+.btn-container{
+    margin: 10px auto;
+}
+.username-home{
+    text-transform: capitalize;
+}
+
+
+  */
+
+  /* /////////////////////////////////////////////////////////////////////////// */
+  *{
+    box-sizing: border-box;
+  }
+  body{
+    background-color: #f5f6ff;
+  }
+
+  .btn{
+    border:none;
+    padding: 7px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .btn-add{
+    background: #bcbcbe;
+    color:rgb(11, 11, 11);
+  }
+  .container{
+    padding: 10px;
+    /* background-color: red; */
+    max-width: fit-content;
+    margin:50px auto;
+  }
+  .container-table{
+   
+        padding: 10px;
+        /* background-color: red; */
+        max-width: fit-content;
+        margin:50px auto;
+      
+  }  
+  .tableContainer{
+    margin-top: 50px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    align-content: center;
+    justify-content: center;
+  }
+  
+
+  .tableContainer table thead tr{
+    background-color: #0c0b0be2;
+    color: #fff;
+    
+  }
+  .tableContainer table thead tr th,
+  .tableContainer table tbody tr td{
+    min-width: 200px;
+    padding: 7px;
+    text-align: center;
+  }
+  .tableContainer table tbody tr{
+    border : 1px solid #c9c5c2;
+  }
+  .tableContainer table tbody tr td{
+    border-bottom: 1px solid #c9c5c2;
+  }
+  .btn-edit,
+  .btn-delete{
+    font-size: 16px;
+    padding: 5px 10px;
+    margin:0px 10px;
+  }
+  .btn-edit{
+    background-color: #bcbcbe;
+color: #0c0d0d;
+  }
+  .btn-delete{
+    background-color: #bcbcbe;
+    color:rgb(4, 4, 4);
+  }
+
+  /* 
+  login page
+  */
+  .log-container{
+    background-color: #fff;
+    max-width: 500px;
+    max-height: 700px;
+    padding: 50px 20px;
+    width: 100%;
+    width: 400px;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+  margin: 65px auto;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+}
+form input,form label{
+    font-size: 16px;
+    padding: 5px 5px;
+}
+form input{
+    margin-bottom: 20px;
+    border: 1px solid #000; 
+}
+form input:hover{
+    border-color: #001d3d;
+    border-radius: 2px;
+}
+.btn-log{
+    background-color: #010508;
+    padding: 5px 15px;
+    color:#fff;
+    font-size: 18px;
+    min-width: 150px;
+    margin: 5px;
+    border-radius: 100px;
+    transition: backgroundColor 1s;
+
+}
+.btn-log:hover{
+    background-color: #023047;
+    cursor: pointer;
+}
+.btn-container-log{
+    margin: 10px auto;
+}
+.container-reg{
+    background-color: #fff;
+    max-width: 500px;
+    max-height: 700px;
+    padding: 50px 20px;
+    width: 90%;
+    width: 400px;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    margin: auto auto;
+    margin-top: 25px;
+    
+ /* align-content: center; */
+}
+
+/* Create pg */
+.container-create{
+    background-color: #fff;
+max-width: 300px;
+    max-height: 500px;
+    padding: 50px 20px;
+    width: 100%;
+    width: 350px;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+  margin-left: 450px; 
+  margin-top: 125px;
+}
+form input,form label{
+    font-size: 16px;
+    padding: 5px 5px;
+}
+.btn-create{
+    background-color: #02060b;
+    padding: 5px 15px;
+    color:#fff;
+    font-size: 15px;
+    /* min-width: 150px;
+    margin: 5px; */
+    border-radius: 100px;
+    margin-right: 70px;
+    -ms-transform: translate(30%, 30%);
+    transform: translate(10%, 10%);
+    transition: backgroundColor 1s;
+}
+.btn-create:hover{
+    background-color: #010405;
+    cursor: pointer;
+}
